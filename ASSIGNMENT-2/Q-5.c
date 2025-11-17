@@ -1,7 +1,10 @@
 //Question 5
+
 // By using selection sort in an array and also by searching method find the target element.
+
 //target = 16
 // arr=[5,12,14,16,17,21,1,5,4,3,0]
+
 #include <stdio.h>
 int main(){
     int a[]={5,12,14,16,17,21,1,5,4,3,0},n=11,i,j,min,t,target=16,found=0;
@@ -21,4 +24,3 @@ int main(){
     printf("Sorted array: ");
     for(i=0;i<n;i++) printf("%d ",a[i]);
 }
-

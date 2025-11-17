@@ -1,5 +1,7 @@
 //Question 5
+
 // how will determine the positions in 2d arrays in 4x4 matrix.
+
 #include <stdio.h>
 int main() {
     int a[4][4],i,j;
@@ -18,4 +20,3 @@ int main() {
     }
     return 0;
 }
-

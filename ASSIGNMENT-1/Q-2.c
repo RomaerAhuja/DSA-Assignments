@@ -1,5 +1,7 @@
 // Question 2
+
 // find how you will rotate an array.
+
 #include <stdio.h>
 int main() {
     int n, d, i, j, temp;
@@ -20,5 +22,4 @@ int main() {
     for(i=0; i<n; i++) printf("%d ", a[i]);
     return 0;
 }
-
 

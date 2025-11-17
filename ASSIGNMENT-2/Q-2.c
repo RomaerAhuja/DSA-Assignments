@@ -1,7 +1,10 @@
 //Question 2 
+
 //Find the element using binary search 
+
 //target = 18
 // arr =[7,6,9,6,8,7,12,14,15,18,19,20,21]
+
 #include <stdio.h>
 int main() {
     int arr[] = {6,6,7,7,8,9,12,14,15,18,19,20,21};
@@ -21,4 +24,3 @@ int main() {
         printf("Element %d not found", target);
     return 0;
 }
-

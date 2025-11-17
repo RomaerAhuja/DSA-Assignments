@@ -1,7 +1,11 @@
 // Question 3
-// Implement a quick sort in an array
+
+// Implement a quick sort in an array.
+
 //arr=[12,18,21,4,6,22,23,2,1]
+
 #include <stdio.h>
+
 void swap(int *a, int *b) {
     int t = *a;
     *a = *b;
@@ -40,4 +44,3 @@ int main() {
         printf("%d ", arr[i]);
     return 0;
 }
-

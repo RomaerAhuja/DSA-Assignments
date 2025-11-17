@@ -1,4 +1,5 @@
-// Question - 3
+//Question 3
+
 //find the minimum value in an array.
 
 #include <stdio.h>
@@ -17,5 +18,3 @@ int main() {
     printf("Minimum value: %d",min);
     return 0;
 }
-
-

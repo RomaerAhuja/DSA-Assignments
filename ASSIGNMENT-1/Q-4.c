@@ -1,5 +1,7 @@
 // Question 4
+
 //find the second minimum value in an array.
+
 #include <stdio.h>
 int main() {
     int n,i,min1,min2;
@@ -21,4 +23,3 @@ int main() {
     printf("Second minimum value: %d",min2);
     return 0;
 }
-

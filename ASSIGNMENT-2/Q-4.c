@@ -1,6 +1,9 @@
 //Question 4
-// Implement a merge sort in an array
+
+// Implement a merge sort in an array.
+
 // arr = 4,14,28,30,78,81,2,1,0,6]
+
 #include <stdio.h>
 void merge(int a[],int l,int m,int r){
     int i=l,j=m+1,k=0,b[r-l+1];
@@ -25,4 +28,3 @@ int main(){
     mergesort(a,0,n-1);
     for(i=0;i<n;i++) printf("%d ",a[i]);
 }
-

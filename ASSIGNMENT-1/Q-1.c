@@ -1,5 +1,7 @@
 // Question - 1
+
 // Find the second largest element in an array.
+
 #include <stdio.h>
 int main() {
     int n,i,max1,max2;
@@ -20,5 +22,4 @@ int main() {
     printf("Second largest element: %d",max2);
     return 0;
 }
-
 

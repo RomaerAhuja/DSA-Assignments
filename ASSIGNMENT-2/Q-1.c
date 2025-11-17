@@ -1,6 +1,9 @@
 //Question 1 
+
 //Find the element using linear search,target = 8
+
 // arr =[7,9,12,6,8,5,4]
+
 #include <stdio.h>
 int main() {
     int arr[] = {7,9,12,6,8,5,4};
@@ -16,4 +19,3 @@ int main() {
         printf("Element %d not found", target);
     return 0;
 }
-
